@@ -1,0 +1,7 @@
+<!ELEMENT collection (document+)>
+<!ELEMENT document (id,title,abstract,refs)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT abstract (#PCDATA)>
+<!ELEMENT refs (ref*)>
+<!ELEMENT ref (#PCDATA)>
